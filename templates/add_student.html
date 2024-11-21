@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+</head>
+<body>
+    <h1>Add Student</h1>
+    <form method="post">
+        Id: <input type="number" name="id" required><br>
+        Name: <input type="text" name="name" required><br>
+        Usn: <input type="number" name="usn" required><br>
+        Age: <input type="number" name="age" required><br>
+        Email: <input type="email" name="email" required><br>
+        Department: <input type="text" name="department" required><br>
+        Phone Number: <input type="number" name="phone_number" required><br>
+        father Name: <input type="text" name="father_name" required><br>
+        father Phone Number: <input type="number" name="father_phone_number" required><br>
+        mother Name: <input type="text" name="mother_name" required><br>
+        mother Phone Number: <input type="number" name="mother_phone_number" required><br>
+        Address: <input type="text" name="address" required><br>
+        <input type="submit" value="Add Student">
+    </form>
+    <a href="{{ url_for('index') }}">Back to Student List</a>
+</body>
+</html>
